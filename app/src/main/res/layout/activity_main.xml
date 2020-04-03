@@ -48,7 +48,7 @@
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addThreeForTeamA"
-                android:text="3 Points" />
+                android:text="+3 Points" />
 
             <Button
                 android:id="@+id/twoPointButton"
@@ -58,7 +58,7 @@
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addTTwoForTeamA"
-                android:text="2 Points" />
+                android:text="+2 Points" />
 
             <Button
                 android:id="@+id/freeThrowButton"
@@ -81,6 +81,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="16dp"
                 android:background="@android:color/darker_gray"
+                android:layout_marginBottom="200dp"
                 />
 
         </LinearLayout>
@@ -123,7 +124,7 @@
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addThreeForTeamB"
-                android:text="3 Points" />
+                android:text="+3 Points" />
 
             <Button
                 android:id="@+id/twoPointButtonB"
@@ -133,7 +134,7 @@
                 android:layout_marginRight="24dp"
                 android:layout_marginBottom="8dp"
                 android:onClick="addTwoForTeamB"
-                android:text="2 Points" />
+                android:text="+2 Points" />
 
             <Button
                 android:id="@+id/freeThrowButtonB"
